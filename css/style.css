@@ -86,8 +86,7 @@
   display: grid;
   grid-template-columns: 1fr 0.7fr 1.2fr 1.1fr;
   grid-template-rows: 1fr 1fr;
-  grid-template-areas: "main-left main-left img1 img1"
- "main-left main-left img2 img3";
+  grid-template-areas: "main-left main-left img1 img1" "main-left main-left img2 img3";
   justify-items: center; }
   .main__section a p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -260,6 +259,27 @@
     width: 385px;
     height: 310px;
     padding-left: 2%; }
+
+/* --------SIGNUP-------- */
+#seccion1-signup {
+  text-align: center;
+  color: #FFA2F3; }
+  #seccion1-signup h1 {
+    font-size: 50px;
+    font-family: 'inknut antiqua', serif; }
+  #seccion1-signup h2 {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace; }
+
+#seccion2-signup {
+  text-align: center; }
+  #seccion2-signup form {
+    color: #FFA2F3;
+    font-family: 'Courier New', Courier, monospace; }
+    #seccion2-signup form h2 {
+      padding-top: 15px;
+      padding-bottom: 25px;
+      font-size: 15px; }
 
 /* Estilos para el HEADER */
 header {
