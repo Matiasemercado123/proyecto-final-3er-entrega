@@ -1,0 +1,64 @@
+.image-tour {
+   padding-bottom: 50px;
+   width: 696  px;
+}
+
+#seccion1-tour{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    h1 {
+        text-align: center;
+        color: #FFA2F3;
+        font-family: 'Inknut Antiqua', serif;
+        font-size: 35px;
+    }
+    h2 {
+       color: #FFA2F3;
+       font-family: 'Inknut Antiqua', serif;
+       font-size: 15px;
+       text-align: center;
+    }
+    h3 {
+        color: #FFA2F3;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align: center;
+        text-decoration: underline;
+        padding-bottom: 10px;
+    }
+
+}
+
+#seccion2-tour {
+    h2 {
+        text-align: center;
+        color: #FFA2F3;
+        font-size: 45px;
+        padding-top: 10px;
+        font-family: 'Inknut Antiqua', serif;
+    }
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        list-style: none;
+        li img{
+            align-items: center;
+            width: 240px;
+            height: 331px;
+            padding: 15px;
+        }
+    }   
+}
+
+
+
+
+
+

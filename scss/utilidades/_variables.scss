@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'Inknut Antiqua';
+    src: url('../fonts/InknutAntiqua-Light.ttf');
+}
+
+
+@font-face {
+    font-family: "Lora Medium";
+    src: url('../fonts/static/Lora-Medium.ttf');
+}
+
+.encuadre-menu {
+    border-style: ridge;
+    color: #FFA2F3;
+    &:hover{
+        background-color: #e49bd1a9
+    }
+}
+
+.seccion-index {
+    width: 200px;
+    padding: 15px;
+}
+
+
+.video-gif {
+    height: 350px;
+    width: 350px;
+    border-style: none;
+    padding-bottom: 25px;
+}
