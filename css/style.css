@@ -249,6 +249,11 @@
 
 #seccion1-media {
   padding: 10px; }
+  #seccion1-media h1 {
+    padding-top: 50px;
+    color: #ff3eeebf;
+    font-family: 'inknut antiqua', serif;
+    padding-bottom: 40px; }
   #seccion1-media h2 {
     padding-top: 50px;
     color: #FFA2F3;
