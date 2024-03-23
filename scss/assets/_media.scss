@@ -13,16 +13,21 @@
 
 #seccion1-media {
     padding: 10px;
-    h2{
+
+    h2 {
         padding-top: 50px;
         color: #FFA2F3;
         font-family: 'inknut antiqua', serif;
         padding-bottom: 10px;
     }
-    ul li img{
-        align-items: center;
-        width: 385px;
-        height: 310px;
-        padding-left: 2%;
+
+    ul {
+        list-style: none;
+        li img {
+            align-items: center;
+            width: 385px;
+            padding-left: 2%;
+
+        }
     }
 }

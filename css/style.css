@@ -254,11 +254,12 @@
     color: #FFA2F3;
     font-family: 'inknut antiqua', serif;
     padding-bottom: 10px; }
-  #seccion1-media ul li img {
-    align-items: center;
-    width: 385px;
-    height: 310px;
-    padding-left: 2%; }
+  #seccion1-media ul {
+    list-style: none; }
+    #seccion1-media ul li img {
+      align-items: center;
+      width: 385px;
+      padding-left: 2%; }
 
 /* --------SIGNUP-------- */
 #seccion1-signup {
