@@ -13,14 +13,18 @@
 header {
     justify-content: space-between;
     align-items: center;
+    nav {
+        background-image: linear-gradient(rgb(3, 1, 12), #1b2033b6);
+    }
+
 }
 
 
 /* Estilos para el cuerpo de la pagina */
-
 main {
     padding: 20px;
-    background-color: #5665a0;
+    background-image: linear-gradient(rgb(3, 1, 12), #25367c);
+
     ul {
         padding-top: 20px;
     }
@@ -30,7 +34,7 @@ main {
 /* Estilos para el footer */
 footer {
     text-align: center;
-    background-color: #25367cef;
+    background-image: linear-gradient(#25367c, rgba(3, 1, 12, 0.822));
     color: #fff;
     padding: 20px;
 }
@@ -40,45 +44,47 @@ footer {
 }
 
 /* Media Queries */
-.menu-hamburguesa{
+.menu-hamburguesa {
     background-color: #FFA2F3;
-}    
+}
 
 /* MEDIA QUERIES HOME */
-@media (max-width: 1008px){
-.main__section {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-}
-.main__section article div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+@media (max-width: 1008px) {
+    .main__section {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
 
-}
+    .main__section article div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
 
 }
 
 /* MEDIA QUERIES MEDIA */
-@media (max-width: 610px){
-    #seccion1-media h2{
-       font-size: 20px;
+@media (max-width: 610px) {
+    #seccion1-media h2 {
+        font-size: 20px;
     }
 
-    #seccion1-media img{
+    #seccion1-media img {
         width: 250px;
         height: 250px;
     }
-    #seccion1-media li{
+
+    #seccion1-media li {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
         align-items: center;
     }
 
-    #seccion1-media iframe{
+    #seccion1-media iframe {
         width: 250px;
         height: 250px;
         display: flex;
@@ -89,28 +95,31 @@ footer {
 }
 
 /* MEDIA QUERIES TIMELINE */
-@media (max-width: 1044px){
-    .main-tl{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
+@media (max-width: 1044px) {
+    .main-tl {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
     }
-    .ahfod{
-        width: 450px ;
+
+    .ahfod {
+        width: 450px;
         height: 350px;
     }
 }
 
-@media (max-width: 750px){
-    .header-timeline a img{
+@media (max-width: 750px) {
+    .header-timeline a img {
         width: 420px;
     }
-    .seccion2-carousel{
+
+    .seccion2-carousel {
         width: 450px;
     }
-    .carousel-inner{
+
+    .carousel-inner {
         padding: 0;
         margin: 0;
         /* display: flex
@@ -120,8 +129,8 @@ footer {
 
 /* MEDIA QUERIES CONTACTO */
 
-@media (max-width: 992px){
-    main section{
+@media (max-width: 992px) {
+    main section {
         max-width: auto;
         display: flex;
         flex-wrap: wrap;
@@ -130,8 +139,8 @@ footer {
     }
 }
 
-@media (max-width: 387px){
-    form{
+@media (max-width: 387px) {
+    form {
         padding: 0;
         display: flex;
         flex-wrap: wrap;
@@ -140,7 +149,7 @@ footer {
 
     }
 
-    footer section{
+    footer section {
         display: flex;
         flex-wrap: wrap;
 
@@ -149,41 +158,42 @@ footer {
 
 /* MEDIAQUERIES TOUR*/
 
-@media (max-width:745px){
+@media (max-width:745px) {
 
-    main{
+    main {
         padding: 0;
         margin: 0;
     }
 
-    #seccion1-tour img{
+    #seccion1-tour img {
         width: 420px;
         padding-top: 15px;
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
-        align-items: center;    
+        align-items: center;
         align-content: center;
-        justify-content: center;    
+        justify-content: center;
     }
 
-    #seccion1-tour ul h1{
+    #seccion1-tour ul h1 {
         font-size: 20px;
     }
 
-    #seccion1-tour ul h2{
+    #seccion1-tour ul h2 {
         font-size: 10px;
     }
 
-    #seccion1-tour ul h3{
+    #seccion1-tour ul h3 {
         font-size: 15px;
     }
-    
-    ol, ul {
+
+    ol,
+    ul {
         padding-left: 0;
     }
 
-    #seccion2-tour ul{
+    #seccion2-tour ul {
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
@@ -193,14 +203,14 @@ footer {
         list-style: none;
     }
 
-    #seccion2-tour li{
+    #seccion2-tour li {
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
         align-items: center;
         align-content: center;
         justify-content: center;
-        
+
     }
 
 
@@ -211,6 +221,6 @@ footer {
         height: 188px;
         padding: 5px;
         padding-left: 15px;
-        }
+    }
 
 }

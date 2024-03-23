@@ -291,18 +291,20 @@
 header {
   justify-content: space-between;
   align-items: center; }
+  header nav {
+    background-image: linear-gradient(#03010c, #1b2033b6); }
 
 /* Estilos para el cuerpo de la pagina */
 main {
   padding: 20px;
-  background-color: #5665a0; }
+  background-image: linear-gradient(#03010c, #25367c); }
   main ul {
     padding-top: 20px; }
 
 /* Estilos para el footer */
 footer {
   text-align: center;
-  background-color: #25367cef;
+  background-image: linear-gradient(#25367c, rgba(3, 1, 12, 0.822));
   color: #fff;
   padding: 20px; }
 
@@ -408,7 +410,8 @@ footer {
     font-size: 10px; }
   #seccion1-tour ul h3 {
     font-size: 15px; }
-  ol, ul {
+  ol,
+  ul {
     padding-left: 0; }
   #seccion2-tour ul {
     display: flex;
